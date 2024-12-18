@@ -13,28 +13,32 @@ Relative move: controlling with a value forward or backward from the previous po
 
 Absolute move: controlling forward or backward to a certain position.
 
-The position of axis is 0 and the drive is enabled:
+The position of axis is 0 and the drive is enabled. Drive enable is indicated by a green light:
 ![image](https://github.com/user-attachments/assets/f0c88013-ac3d-479a-a111-934a1e69a3a1)
 
 
-The axis moves forward with velocity 18 after typing 18 in the velocity input field and clicking Velocity ON button:
-![Image15](https://github.com/user-attachments/assets/7b5a9dcb-7d36-400b-be4c-ff9c6512960b)
+The axis moves forward with velocity 18 after typing 18 in the velocity input field and clicking Move velocity button:
+![image](https://github.com/user-attachments/assets/9876af02-67ce-4887-b857-30ef1e1c34cf)
+![image](https://github.com/user-attachments/assets/579ca61b-8a8a-40e2-834d-d0d500688e55)
 
-The axis moves from home position to position 164 after typing 164 in the absolute input field and clicking Absolute ON button:
-![Image16](https://github.com/user-attachments/assets/90cd8461-de28-4347-ac61-bc32c251b593)
+The axis halts if the Halt motion button is pressed. It is indicated by a yellow light:
+![image](https://github.com/user-attachments/assets/2ed2a368-b7d0-4a32-a2de-cb3c65552e8d)
 
-The axis moves from position 164 to position 146 after typing -20 in the relative input field and clicking the Relative ON button:
-![Image17](https://github.com/user-attachments/assets/28c3bb0f-5084-4a04-8f61-d2808bea6966)
+The axis stops if the Stop motion button is pressed. It is indicated by a red light. If it is in stop mode we can't move the axis at all:
+![image](https://github.com/user-attachments/assets/475e1039-a82d-47e2-abd6-1ee17b1496f1)
 
-Automatic mode:
-![Image18](https://github.com/user-attachments/assets/10aeb422-a42d-450a-9ee3-4b3c5a0cbffc)
-There is Sensor1 to detect the product on the conveyor and Cylinder1 attached to the axis to grab the product.
 
-If Sensor1 detects the product, the axis is moved to position 251. The absolute value variable is set 251 and execute absolute move variable is set true.
-![Image19](https://github.com/user-attachments/assets/51cce9f4-1409-4fe2-9178-9b82488aca2a)
+The axis moves from home position to position 164 after typing 164 in the absolute input field and clicking Move absolute button:
+![image](https://github.com/user-attachments/assets/e5cef4f8-7f3b-4d2d-9461-24e88d23c2ec)
+![image](https://github.com/user-attachments/assets/99230947-ccf9-47ff-9eac-d4d62fdf0a4f)
+![image](https://github.com/user-attachments/assets/145ceaa1-c27a-43cd-b9e7-4a3bd801047a)
+![image](https://github.com/user-attachments/assets/f8809e5a-67f0-4aac-9a48-c14011575b82)
 
-If the axis reached position 251 and Sensor1 is active, Cylinder1 moves forward to grasp the product:
-![Image20](https://github.com/user-attachments/assets/e0dba987-59e4-45c4-8a08-9560df5ccc04)
 
-If the position of axis is 251 but Sensor1 is not active, Cylinder1 doesn't move:
-![Image22](https://github.com/user-attachments/assets/08b97ac8-190f-48b7-964c-2bd51d5ed0fb)
+The axis moves from position 164 to position 144 after typing -20 in the relative position input field and typing the expected velocity value in relative velocity input field and clicking the Move relative button:
+![image](https://github.com/user-attachments/assets/647c0aee-b7bb-4d3a-9a4d-79efb8ead20c)
+![image](https://github.com/user-attachments/assets/cb3074ed-449b-4c7f-9d7f-8bc5b338ed63)
+![image](https://github.com/user-attachments/assets/0da8d472-cfd8-47de-8f35-6bedd4cf1988)
+![image](https://github.com/user-attachments/assets/8ac0653d-7880-4108-be1c-476c8d8c4321)
+
+
