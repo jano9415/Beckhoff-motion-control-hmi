@@ -28,7 +28,7 @@ The axis stops if the Stop motion button is pressed. It is indicated by a red li
 ![image](https://github.com/user-attachments/assets/475e1039-a82d-47e2-abd6-1ee17b1496f1)
 
 
-The axis moves from home position to position 164 after typing 164 in the absolute input field and clicking Move absolute button:
+The axis moves from home position to position 164 after typing 164 in the absolute position input field and typing the expected velocity value in absolute velocity input field and clicking Move absolute button:
 ![image](https://github.com/user-attachments/assets/e5cef4f8-7f3b-4d2d-9461-24e88d23c2ec)
 ![image](https://github.com/user-attachments/assets/99230947-ccf9-47ff-9eac-d4d62fdf0a4f)
 ![image](https://github.com/user-attachments/assets/145ceaa1-c27a-43cd-b9e7-4a3bd801047a)
